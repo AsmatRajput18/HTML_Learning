@@ -1,0 +1,151 @@
+h1{
+    background-color: aqua;
+    color: brown;
+    display: inline;
+}
+
+#p2{
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+ background-color: rgb(134, 169, 218);
+ color: rgb(144, 21, 21);
+ line-height: 100px;
+line-break: loose   ;
+
+}
+
+#p1{
+  font-family: cursive;
+  font-weight: 900;
+  font-style: oblique;
+  text-align: center;
+  background-color: aquamarine;
+  
+}
+#p3{
+  text-align: right;
+  text-decoration:overline;
+  text-transform:capitalize;
+  box-sizing:content-box;
+  background-color: bisque;
+  word-spacing: 100px;
+}
+.para1{
+   border: 2px solid rgb(112, 14, 14); 
+   border-radius: 15px;
+}
+
+.mydiv{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  padding: 100px;
+  box-sizing: border-box;
+  
+}
+#div1{
+background-color: rgb(55, 209, 158);
+/* visibility: hidden; */
+
+}
+#div2{
+background-color: rgb(172, 35, 145);
+/* position: fixed; */
+float: right;
+
+}
+#div3{
+background-color: rgb(157, 193, 36);
+/* float: right; */
+clear: right;
+}
+#div3:hover{
+background-color: rgb(193, 115, 36);
+border: 2px solid red;
+border-radius: 8px;
+}
+#img1{
+  float: right;
+  width: 300px;
+  /* height: 300px; */
+}
+.mydiv1{
+  background-color: bisque;
+  height: 500px;
+  overflow: hidden;
+  border: 5px dashed yellowgreen;
+
+}
+.div2{
+  border: 10px double rgb(140, 140, 10);
+  margin-top: 10px;
+  overflow: auto;
+}
+#btn{
+  border: 2px solid rgb(148, 212, 28) ;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: orangered;
+  width: 200px;
+  height:50px ;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding:1px ;
+  float: right;
+  overflow: hidden;
+  
+}
+#btn:hover{
+  border: 2px solid rgb(212, 28, 111) ;
+  background-color: rgb(20, 179, 211);
+  
+
+}
+span{
+  background-color:yellow ;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid red;
+  display: inline-block;
+}
+ a{
+  width: 160px;
+  height: 50px;
+  border: 2px solid red;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  padding-left: 22px;
+  background-color: yellowgreen;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(110, 8, 8);
+}
+#d1{
+  background-color: beige;
+  float: right;
+}
+#d2{
+  background-color: bisque;
+  float: right;
+}
+#d3{
+  background-color: chocolate;
+  float: right;
+ 
+}
+.d11{
+  width: 500px;
+  height: 500px;
+  border: 2px solid brown;
+  overflow: scroll;
+}
